@@ -1,0 +1,20 @@
+.font-bold {
+    font-weight: bold;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.ordering-table .ant-table-thead > tr > th {
+    white-space: nowrap;
+}
+
+.col-center {
+    text-align: center;
+}
+
+.act-button {
+    width: 100%;
+    display: block;
+}

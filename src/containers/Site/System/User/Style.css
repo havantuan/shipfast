@@ -1,0 +1,46 @@
+h3.title {
+    margin-bottom: 20px;
+    background-color: #dddddd;
+    padding: 20px 0 10px 10px;
+}
+
+.radioStyle {
+    display: block;
+    line-height: 30px;
+    height: 30px;
+}
+
+.text-info {
+    margin-bottom: 5px;
+    color: #23b7e5;
+
+}
+
+.info {
+    font-size: 14px;
+}
+
+.warning {
+    background-color: orange;
+    color: white;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+.api-div {
+    margin-top: 20px;
+}
+
+.text-key {
+    color: rgba(29, 9, 15, 0.58);
+    line-height: 15px;
+    padding-right: 5px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.line-height {
+    line-height: 30px;
+}

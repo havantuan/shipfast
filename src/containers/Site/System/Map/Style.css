@@ -1,0 +1,39 @@
+.hubs-menu {
+    padding-left: 0;
+    border: 1px solid #E9E9E9;
+    max-height: 650px;
+    overflow: auto;
+}
+
+.hubs-menu > li {
+    display: block;
+    border-bottom: 1px solid #E9E9E9;
+    padding: 10px 0 10px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.hubs-menu > li:last-child {
+    border-bottom: none;
+}
+
+.hubs-menu > li:hover {
+    background-color: #ECF6FD;
+}
+
+.hubs-menu > li.active {
+    background-color: #ECF6FD;
+}
+
+.hubs-menu > li.active:after {
+    content: ' ';
+    border-right: 3px solid #108EE9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.hubs-menu > li:hover > h3, .hubs-menu > li.active > h3 {
+    color: #108EE9;
+}

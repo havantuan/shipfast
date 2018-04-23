@@ -1,0 +1,19 @@
+.textRight {
+    text-align: right;
+}
+
+.btnNext {
+    margin-right: 10px;
+}
+
+.step-content {
+    margin-top: 20px;
+}
+
+.city {
+    margin-bottom: -15px !important;
+}
+
+.addUser {
+    margin-left: 10px;
+}

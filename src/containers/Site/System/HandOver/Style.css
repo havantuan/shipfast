@@ -1,0 +1,124 @@
+.purple-button[disabled] {
+    opacity: 0.7;
+}
+
+.purple-button {
+    background-color: #7266ba !important;
+    border-color: #7266ba !important;
+    color: #fff !important;
+}
+
+.purple-button:hover {
+    background-color: #593b92 !important;
+    border-color: #593b92 !important;
+}
+
+.order-code {
+    font-weight: bold;
+    cursor: pointer;
+    color: #4D2E4A;
+}
+
+.control {
+    margin-bottom: 10px;
+}
+
+.filter {
+    width: 50%;
+    display: inline-block;
+}
+
+.filter button {
+    background-color: #23b7e5;
+    color: #ffffff;
+}
+
+.filter button:hover {
+    background-color: #239FCB;
+    color: #ffffff;
+}
+
+.confirm {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+.col-center {
+    text-align: center;
+}
+
+.col-right {
+    text-align: right;
+}
+
+.orange-button {
+    color: #ffffff;
+    background-color: #FFA931;
+}
+
+.orange-button:hover {
+    color: #ffffff;
+    background-color: #EB7802;
+}
+
+.label-row {
+    position: relative;
+}
+
+.label-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+/*
+   print styles
+*/
+.page {
+    background-color: #F0F0F0;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.page-content {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.btn-print {
+    position: fixed;
+    top: 10%;
+    right: 10px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.col-center {
+    text-align: center;
+}
+
+.footer > p {
+    line-height: 26px;
+}
+
+@media print {
+    @page {
+        margin: 0;
+        size: A4;
+    }
+
+    .page-content {
+        width: 100% !important;
+        /*print background color for chrome*/
+        -webkit-print-color-adjust: exact;
+    }
+
+    .btn-print {
+        display: none;
+    }
+}

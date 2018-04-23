@@ -1,0 +1,18 @@
+.hub-control {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.hub-control .action {
+    width: 70%;
+}
+
+.hub-control .buttonAdd {
+    width: 30%;
+    text-align: right;
+}
+
+.hub-table .ant-table-thead > tr > th {
+    white-space: nowrap;
+}

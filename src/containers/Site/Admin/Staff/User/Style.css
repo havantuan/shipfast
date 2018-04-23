@@ -1,0 +1,40 @@
+.hub-control {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.hub-control .action {
+    width: 60%;
+}
+
+.hub-control .buttonAdd {
+    width: 40%;
+    text-align: right;
+}
+
+h2 {
+    margin: 0;
+    line-height: 60px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.btnNext {
+    margin-right: 10px;
+}
+
+.step-content {
+    margin-top: 20px;
+}
+
+.city {
+    margin-bottom: -15px !important;
+}
+
+.addUser {
+    margin-left: 15px;
+}

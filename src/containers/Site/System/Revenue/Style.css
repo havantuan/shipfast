@@ -1,0 +1,36 @@
+.search {
+    display: inline-block;
+    width: 100%;
+}
+
+.submit {
+    background-color: #7266BA;
+    color: white;
+    height: 40px;
+    width: 20%;
+}
+
+.submit:hover {
+    background-color: #7266BA;
+    color: white;
+}
+
+.inputsearch {
+    width: 80%;
+    font-weight: bold;
+    height: 40px;
+}
+
+.info {
+    margin-top: 15px;
+    background-color: #DFF0D8;
+    padding: 10px;
+}
+
+.lineHeight {
+    height: 30px;
+}
+
+.toggle-button {
+    width: 100%;
+}

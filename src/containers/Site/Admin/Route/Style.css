@@ -1,0 +1,14 @@
+.route-control {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.route-control .action {
+    width: 70%;
+}
+
+.route-control .buttonAdd {
+    width: 30%;
+    text-align: right;
+}
